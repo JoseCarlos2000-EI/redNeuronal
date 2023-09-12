@@ -1,0 +1,90 @@
+body{
+    width: 100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+}
+.contain{
+    width: 50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    border-radius: 1rem;
+    border: 0.05rem solid #e0dddd;
+    padding: 2rem;
+    box-shadow: 19px 22px 35px -17px rgba(107, 102, 102, 0.75);
+}
+
+.inputs-x{
+    width: 100%;
+    display:flex;
+    justify-content:center;
+    flex-direction: row;
+    align-items: center;
+    gap:1rem;
+    margin-top:2rem;
+}
+
+.weigth-factor{
+    width: 100%;
+    display:flex;
+    justify-content:center;
+    flex-direction: row;
+    align-items: center;
+    gap:1rem;
+    margin-top:2rem;
+}
+
+.weigth{
+    width: 30%;
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+}
+.facActivation{
+    width: 30%;
+
+}
+
+.input-x-4{
+    margin-left: 5rem;
+}
+
+/* Codigo de los desarrolladores*/
+.developers{
+    margin-top:1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+.txtDevelopers{
+    margin-top: 4rem;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1rem;
+    box-shadow: 19px 22px 35px -17px rgba(107, 102, 102, 0.75);
+    border: 0.05rem solid #e0dddd;
+    padding: 1rem;
+
+}
+.card p{
+    font-weight: bold;
+    margin: 0;
+}
+
+.card .name{
+    margin-top: 0.5rem !important;
+}
+.card .carrera{
+    font-size: 0.8rem;
+    color: rgb(102, 123, 141);
+    margin-top: 0.5rem;
+}
