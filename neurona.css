@@ -4,6 +4,7 @@ body{
     justify-content:center;
     align-items:center;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 .contain{
     width: 50%;
@@ -14,6 +15,7 @@ body{
     border-radius: 1rem;
     border: 0.05rem solid #e0dddd;
     padding: 2rem;
+    flex-wrap: wrap;
     box-shadow: 19px 22px 35px -17px rgba(107, 102, 102, 0.75);
 }
 
@@ -24,6 +26,7 @@ body{
     flex-direction: row;
     align-items: center;
     gap:1rem;
+    flex-wrap: wrap;
     margin-top:2rem;
 }
 
@@ -34,6 +37,7 @@ body{
     flex-direction: row;
     align-items: center;
     gap:1rem;
+    flex-wrap: wrap;
     margin-top:2rem;
 }
 
@@ -43,9 +47,15 @@ body{
     justify-content:center;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
 }
 .facActivation{
     width: 30%;
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
 
 }
 
@@ -59,6 +69,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 4rem;
 }
 .txtDevelopers{
